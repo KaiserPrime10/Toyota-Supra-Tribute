@@ -7,11 +7,18 @@ body {
     height: auto;
 }
 
-.container {
+header {
     display: flex;
     background-color: rgb(0, 0, 0);
-    color: azure;
+    color: rgb(255, 255, 255);
     align-items: center;
     
 }
 
+.head {
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+}
