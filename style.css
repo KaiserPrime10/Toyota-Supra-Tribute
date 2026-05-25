@@ -5,6 +5,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     height: auto;
+    background-color: black;
 }
 
 header {
@@ -12,13 +13,18 @@ header {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3vh;
+    font-weight: 500;
     
 }
 
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
 .head {
     display: flex;
     align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    justify-content: space-between;
+    justify-content: space-around;    
 }
