@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Toyota;
+    src: url(fonts/Toyota/Toyota/avenir\ lt\ std\ black.otf);
+}
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -13,18 +19,27 @@ header {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 3vh;
+    font-family: Toyota, sans-serif;
+    font-size: 4vh;
     font-weight: 500;
     
 }
 
 .container {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 10vh;
+    padding-right: 10vh;
 }
+
 .head {
     display: flex;
     align-items: center;
     justify-content: space-around;    
 }
+
+.Logotext {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: red;
+}
+
