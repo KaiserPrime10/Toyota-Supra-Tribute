@@ -3,15 +3,25 @@
     src: url(fonts/Toyota/Toyota/avenir\ lt\ std\ black.otf);
 }
 
+@font-face {
+    font-family: Cyber;
+    src: url(fonts/cynatar/Cynatar.otf);
+}
 
+@font-face {
+    font-family: Akira;
+    src: url(fonts/akira_expanded/Akira\ Expanded\ Demo.otf);
+}
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 0;
+    padding-left: 10vh;
+    padding-right: 10vh;
     box-sizing: border-box;
     height: auto;
     background-color: black;
+    color: white;
 }
 
 header {
@@ -20,16 +30,44 @@ header {
     color: rgb(255, 255, 255);
     align-items: center;
     font-family: Toyota, sans-serif;
-    font-size: 4vh;
-    font-weight: 500;
+    font-weight: 100;
+    margin-top: 10px;
+    
     
 }
 
 .container {
-    padding-left: 10vh;
-    padding-right: 10vh;
+    display: flex;
 }
 
+#one {
+    border-bottom: 1px solid rgb(68, 68, 68);
+}
+#two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 2;
+}
+
+#hero {
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    font-family: Akira, sans-serif;
+    font-size: 7vh;
+    flex-shrink: 1;
+}
+
+#car {
+    display: flex;
+    min-height: 0;
+}
+
+#car img{
+    width: 100%;
+    max-width: 600px;
+}
 .head {
     display: flex;
     align-items: center;
@@ -41,5 +79,6 @@ header {
     margin-left: 30px;
     margin-right: 30px;
     color: red;
+    font-size: 6vh;
 }
 
