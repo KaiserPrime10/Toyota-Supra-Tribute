@@ -17,8 +17,8 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding-left: 10vh;
-    padding-right: 10vh;
+    padding-left: 9vh;
+    padding-right: 9vh;
     box-sizing: border-box;
     height: auto;
     background-color: black;
