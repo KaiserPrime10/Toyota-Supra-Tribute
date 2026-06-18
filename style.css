@@ -13,16 +13,6 @@
     src: url(fonts/akira_expanded/Akira\ Expanded\ Demo.otf);
 }
 
-html {
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    height: 100vh;
-}
-
-#one, #two, #three {
-    scroll-snap-align: start;
-}
-
 body {
     display: flex;
     flex-direction: column;
